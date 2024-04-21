@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.container {
+    width: 384px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px black solid;
+    box-shadow: 8px 8px 1px 1px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 24px;
+    gap: 24px;
+}
+
+.illustration {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.content-description p:nth-child(1) {
+    padding: 4px 12px;
+    border-radius: 4px;
+    background-color: hsl(47, 88%, 63%);
+    font-weight: 800;
+    font-size: 18px;
+    display: inline;
+}
+
+.content-description p:nth-child(4) {
+    font-weight: 400;
+    font-size: large;
+    color: hsl(0, 0%, 50%);
+    line-height: 1.5;
+    margin: 0;
+}
+
+.profile {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+}
+
+.profile>img {
+    height: 45px;
+    width: 45px;
+}
+
+.profile>p {
+    font-weight: bold;
+    font-size: large;
+}
